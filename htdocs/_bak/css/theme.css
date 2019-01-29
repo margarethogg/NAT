@@ -1,0 +1,83 @@
+body {
+	background: url('../images/cityscape_background_thin.jpg') top center fixed no-repeat;
+	background-color: #0084d9;
+}
+
+#header {
+	color: #eee;
+	height: 120px;
+}
+
+#header #logo {
+	width:270px;
+	height:85px;
+	background: url('../images/logo.png');
+	display:block;
+	text-indent: -9999px;
+	margin-top:18px;
+	float:left;
+}
+
+
+.top_links {
+	float:right;
+}
+
+#nav {
+	height: 44px;
+}
+
+#nav ul li {
+	background-color: #cdcdcd;
+	height: 44px;
+	padding: 0px 37px 0px 37px;
+}
+
+#content {
+	background-color: #ffffff;
+	margin:10px;
+}
+
+#wrap {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+#footer {
+	background: #2c2c2c;
+	height: 60px;
+}
+
+/* Text Controls */
+
+body {
+	font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif; 
+	font-size: 62.5%; 
+	color: #282b2e;
+} 
+	
+
+
+#content h1 {
+	background-color: #0084d9;
+	font-weight:400;
+	color:#FFF;
+	font-size: 1.2em;
+}
+
+#content p {
+	font-size: 1.4em;
+	line-height: 1.7em;
+	font-weight:300;
+	}
+
+
+
+#car_wrap h2 {
+	font-size: 2.4em;
+	font-weight:400;
+	}
+	
+#footer {
+	color:#FFF;
+}

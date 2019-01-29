@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url('../images/cityscape_background_1440.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #2c2c2c;
+}
+
+header #logo {
+	background-image:url('../images/crispin_and_mulberry_logo.gif')
+}
+
+main {
+	padding: 0px 10px 10px 10px;
+}
+
+#top_links {
+	right: -10px;
+}
+
+/* Carousel */
+
+#car_wrap .car_caption {
+    background: rgba(255, 255, 255, .7);
+	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#B3FFFFFF', endColorstr='#B3FFFFFF'); /* IE6+ */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#B3FFFFFF', endColorstr='#B3FFFFFF')"; /* IE8 */
+}
+
+.car_photos {
+	filter: alpha(opacity=00); /* IE6+ */
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=00); /* IE6+ */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=00)"; /* IE8 */
+}
+
+.car_nav a.selected img {
+	width:153px;
+	height:auto;
+}
+
+
+/* Popular Videos */
+
+.video_thumbs {
+	width:800px;
+	overflow:hidden;
+}
+
+.video_thumb {
+	margin: 0px 20px 20px 0px;
+}
+
+.video_thumb .play_button {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 48px;
+	left: 81px;
+	z-index: 50;
+	background-image:url('../images/play_button_ie.gif');
+	background-repeat:no-repeat;
+	background-color: transparent;
+	border: none;
+	
+	filter: alpha(opacity=70); /* IE6+ */
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70); /* IE6+ */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=70)"; /* IE8 */
+	
+}
+
+.video_thumb p {
+	background-color: #ffffff;
+	filter: alpha(opacity=70); /* IE6+ */
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70); /* IE6+ */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=70)"; /* IE8 */
+}
+

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+#car_wrap {
+	position: relative;
+	width: 666px;
+	overflow: hidden;
+	height: 440px;
+}
+
+#car_panels { display: none; }
+
+#car_wrap .car_caption {
+	width: 100%;
+	margin: 0px;
+	min-height: 68px;
+	position: absolute;
+	bottom: 109px;
+	left: 0;
+	background: rgba(255, 255, 255, 0.7);
+	z-index: 2;
+}
+
+#car_wrap .car_caption_content {
+	margin: 12px 0 12px 13px;
+	padding: 0;
+}
+
+.car_nav {
+	position: absolute;
+	display: block;
+	top: 331px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.car_nav a {
+	display: inline-block;
+	width: 159px;
+	margin-right: 10px;
+	height: 109px;
+	background: none;
+	cursor: pointer;
+}
+
+.car_nav a:last-child { margin-right: 0px; }
+
+.car_nav a img {
+	width: 159px;
+	height: 79px;
+	margin-top: 10px;
+}
+
+.car_nav a.selected {
+	background: url('../images/photos/car_thumb_active.gif') no-repeat top center;
+	cursor: auto;
+}
+
+.car_nav a.selected img {
+	border: 3px solid #0084d9;
+	box-sizing: border-box;
+	
+	-webkit-box-sizing: border-box; /* Webkit */
+	-moz-box-sizing: border-box;    /* Firefox */
+}
+
+.car_photo { height: auto; }
+
+.car_photos {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 331px;
+	opacity: 0.0;
+	-moz-opacity: 0.0;
+	-khtml-opacity: 0.0;
+}
+
+/* Text Controls */
+
+.car_caption p {
+	font-size: 1.4em;
+	font-weight: 100;
+	margin: 0px;
+	padding: 0;
+}
+
+.car_caption h2 {
+	font-size: 2.4em;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+}
