@@ -1,1 +1,0 @@
-I had trouble matching the Helvetica font as displayed by Chrome for Mac with the font as it's rendered in Photoshop. I would rather not do too much to force the font, in order to prevent it from breaking in special situations.
