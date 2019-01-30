@@ -53,7 +53,7 @@
 }
 
 .car_nav a.selected {
-	background: url('../images/photos/car_thumb_active.gif') no-repeat top center;
+	background: url('images/photos/car_thumb_active.gif') no-repeat top center;
 	cursor: auto;
 }
 
